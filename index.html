@@ -1,103 +1,108 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Политика конфиденциальности — Bilimchi</title>
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #fff;
-            color: #333;
-            margin: 0;
-            padding: 0 20px;
-        }
-        header {
-            text-align: center;
-            padding: 40px 0 20px 0;
-        }
-        h1 {
-            color: #EE3C00;
-            font-size: 28px;
-        }
-        main {
-            max-width: 800px;
-            margin: 0 auto;
-            line-height: 1.6;
-        }
-        p {
-            margin-bottom: 15px;
-        }
-        footer {
-            margin: 40px 0;
-            text-align: center;
-            font-size: 14px;
-            color: #666;
-        }
-        a {
-            color: #EE3C00;
-            text-decoration: none;
-
-            
-        }
-
-        div img {
-        width: 300px;
-        display: block;
-        margin: 20px auto;
-
-
-
-        }
-        @media (max-width: 400px) {
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Политика конфиденциальности — Bilimchi</title>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #fff;
+      color: #333;
+      margin: 0;
+      padding: 0 20px;
+    }
+    header {
+      text-align: center;
+      padding: 40px 0 20px 0;
+    }
     h1 {
-        font-size: 22px;
+      color: #EE3C00;
+      font-size: 28px;
     }
     main {
-        padding: 0 10px;
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.6;
     }
-}
-
-    </style>
+    p {
+      margin-bottom: 15px;
+    }
+    footer {
+      margin: 40px 0;
+      text-align: center;
+      font-size: 14px;
+      color: #666;
+    }
+    a {
+      color: #EE3C00;
+      text-decoration: none;
+    }
+    .logo img {
+      width: 200px;
+      display: block;
+      margin: 30px auto;
+    }
+    @media (max-width: 400px) {
+      h1 {
+        font-size: 22px;
+      }
+      main {
+        padding: 0 10px;
+      }
+    }
+  </style>
 </head>
 <body>
-   <header>
-  <h1>Политика конфиденциальности</h1>
-</header>
-<main>
-  <p>Ваше доверие важно для нас. Мы не собираем, не храним и не передаём ваши личные данные третьим лицам.</p>
-  <p>Приложение использует только открытые данные, переданные через Telegram (например, имя, фамилию, имя пользователя и фотографию профиля). Эти данные используются исключительно для корректной работы сервиса и не сохраняются.</p>
-  <p>Вся информация, отображаемая в приложении, представлена в открытом виде для удобства пользователей. Приложение не требует регистрации и не запрашивает личные данные (телефон, электронную почту и т.д.).</p>
-  <p>Если у вас есть вопросы или предложения, пожалуйста, свяжитесь с нами по следующему адресу:<br>📩 
-    <a href="mailto:bilimchisupport@example.com">bilimchisupport@example.com</a>
-  </p>
-</main>
-<footer>
-  © 2025 Bilimchi
-</footer>
+  <header>
+    <h1 id="title">Политика конфиденциальности</h1>
+  </header>
 
+  <main>
+    <p id="p1">
+      Мы обрабатываем только те персональные данные, которые репетиторы добровольно предоставляют через Telegram-бот для публикации своих профилей в приложении Bilimchi.
+    </p>
 
-    <div class="logo">
-     <!-- Пример для логотипа -->
-<img src="logo.jpg" alt="Bilimchi Logo">
+    <p id="p2">
+      Приложение не требует регистрации пользователей и не запрашивает персональные данные учеников. Профили репетиторов отображаются публично с их согласия.
+    </p>
 
+    <p id="p3">
+      Предоставленные данные используются исключительно для работы сервиса, отображения анкет репетиторов и улучшения качества платформы.
+    </p>
 
+    <p id="p4">
+      По вопросам конфиденциальности или для запроса удаления профиля вы можете связаться с нами по почте:
+      <a href="mailto:bilimchisupport@yourdomain.com">bilimchisupport@yourdomain.com</a>
+    </p>
+  </main>
 
-    </div>
+  <footer>
+    © 2026 Bilimchi
+  </footer>
 
-     <script>
-        // Получаем язык устройства
-        const lang = navigator.language || navigator.userLanguage;
+  <div class="logo">
+    <img src="images/logo.jpg" alt="Bilimchi logo" />
+  </div>
 
-        if(lang.startsWith('uz')) {
-            document.getElementById('title').innerText = 'Maxfiylik siyosati';
-            document.getElementById('p1').innerText = 'Bizga ishonchingiz muhim. Biz foydalanuvchilarning shaxsiy ma’lumotlarini to‘plamaymiz, saqlamaymiz va uzatmaymiz.';
-            document.getElementById('p2').innerText = 'Ilovada ko‘rsatilgan barcha ma’lumotlar foydalanuvchilar uchun qulaylik maqsadida ochiq tarzda taqdim etiladi. Ilova ro‘yxatdan o‘tishni talab qilmaydi va shaxsiy ma’lumotlarni (F.I.Sh, telefon, email va h.k.) so‘ramaydi.';
-            document.getElementById('p3').innerText = 'Ilovadan foydalanish orqali foydalanuvchi ma’lumotlarning to‘g‘riligiga yoki yangilanishiga ishlab chiquvchilar javobgar emasligini qabul qiladi.';
-            document.getElementById('p4').innerHTML = 'Agar savollar yoki takliflar bo‘lsa, biz bilan <a href="mailto:bilimchisupport@example.com">bilimchisupport@example.com</a> orqali bog‘laning.';
-        }
-    </script>
-</body>
-</html>
+  <script>
+    const lang = navigator.language || navigator.userLanguage;
+
+    if (lang && lang.startsWith('uz')) {
+      document.getElementById('title').innerText = 'Maxfiylik siyosati';
+
+      document.getElementById('p1').innerText =
+        'Bilimchi ilovasida repetitorlar Telegram-bot orqali ixtiyoriy ravishda taqdim etgan shaxsiy ma’lumotlar qayta ishlanadi va ommaviy profil sifatida ko‘rsatiladi.';
+
+      document.getElementById('p2').innerText =
+        'Ilova foydalanuvchilar (o‘quvchilar) uchun ro‘yxatdan o‘tishni talab qilmaydi va ularning shaxsiy ma’lumotlarini yig‘maydi.';
+
+      document.getElementById('p3').innerText =
+        'Taqdim etilgan ma’lumotlar faqat xizmatni ta’minlash va repetitorlarni topishda qulaylik yaratish uchun ishlatiladi.';
+
+      document.getElementById('p4').innerHTML =
+        'Maxfiylik bo‘yicha savollar yoki profilni o‘chirish uchun: <a href="mailto:bilimchisupport@yourdomain.com">bilimchisupport@yourdomain.com</a>';
+    }
+  </script>
 </body>
 </html>
